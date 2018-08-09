@@ -59,4 +59,9 @@
     return [self montserratLoadAndReturnFont:@"Montserrat-Bold" size:fontSize onceToken:&onceToken fontFileName:@"Montserrat-Bold"];
 }
 
++ (instancetype)montserratLightFontOfSize:(CGFloat)fontSize {
+    static dispatch_once_t onceToken;
+    return [self montserratLoadAndReturnFont:@"Montserrat-Light" size:fontSize onceToken:&onceToken fontFileName:@"Montserrat-Light"];
+}
+
 @end

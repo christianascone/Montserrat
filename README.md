@@ -35,6 +35,7 @@ look so beautiful.
 
     self.montserratLabel.font = [UIFont montserratFontOfSize:18.0f];
     self.montserratBoldLabel.font = [UIFont montserratBoldFontOfSize:18.0f];
+    self.montserratLightLabel.font = [UIFont montserratLightFontOfSize:18.0f];
 }
 
 @end

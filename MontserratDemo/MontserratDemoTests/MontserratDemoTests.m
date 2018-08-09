@@ -25,4 +25,8 @@
     expect([[UIFont montserratBoldFontOfSize:17.0] fontName]).to.equal(@"Montserrat-Bold");
 }
 
+- (void)testMontserratLightFont {
+    expect([[UIFont montserratLightFontOfSize:17.0] fontName]).to.equal(@"Montserrat-Light");
+}
+
 @end

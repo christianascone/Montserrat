@@ -11,7 +11,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
-  Montserrat: f5d19b9add24ad5dace1bf1c60b333bafd16bd5d
+  Expecta: a354d4633409dd9fe8c4f5ff5130426adbe31628
+  Montserrat: b135ee44ddabed4b57c383ba36059dcd9f309308
 
-COCOAPODS: 0.33.1
+PODFILE CHECKSUM: e4401870c7ffe669f4455f5048953077e86e563c
+
+COCOAPODS: 1.4.0

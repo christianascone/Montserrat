@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BC877525E2F644974D25AAC /* libPods-MontserratDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6C470D6194724A038BA878 /* libPods-MontserratDemo.a */; };
 		771363431994DC0800F4A1F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771363421994DC0800F4A1F8 /* Foundation.framework */; };
 		771363451994DC0800F4A1F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771363441994DC0800F4A1F8 /* CoreGraphics.framework */; };
 		771363471994DC0900F4A1F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771363461994DC0900F4A1F8 /* UIKit.framework */; };
@@ -22,8 +23,7 @@
 		771363671994DC0900F4A1F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771363461994DC0900F4A1F8 /* UIKit.framework */; };
 		7713636F1994DC0900F4A1F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7713636D1994DC0900F4A1F8 /* InfoPlist.strings */; };
 		771363711994DC0900F4A1F8 /* MontserratDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 771363701994DC0900F4A1F8 /* MontserratDemoTests.m */; };
-		9F55093A05BA41CC9543C3ED /* libPods-MontserratDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97802A370BE44B16AFEB2868 /* libPods-MontserratDemoTests.a */; };
-		F2868CDC31C14A1FA0A58229 /* libPods-MontserratDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A16063B2CA7349A5832BAB5F /* libPods-MontserratDemo.a */; };
+		B7B2EEA1068C3F41E0FEF3E6 /* libPods-MontserratDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E15C78E6DA2AEC76E3483B88 /* libPods-MontserratDemoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F47762D539044B78718706F /* Pods-MontserratDemoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MontserratDemoTests.xcconfig"; path = "Pods/Pods-MontserratDemoTests.xcconfig"; sourceTree = "<group>"; };
-		49DB6BEAD31E400281AB762E /* Pods-MontserratDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MontserratDemo.xcconfig"; path = "Pods/Pods-MontserratDemo.xcconfig"; sourceTree = "<group>"; };
+		409791E5BBBE1929F585D7F8 /* Pods-MontserratDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MontserratDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MontserratDemoTests/Pods-MontserratDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		60044333113C7E03DD027A47 /* Pods-MontserratDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MontserratDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MontserratDemo/Pods-MontserratDemo.release.xcconfig"; sourceTree = "<group>"; };
 		7713633F1994DC0800F4A1F8 /* MontserratDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MontserratDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		771363421994DC0800F4A1F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		771363441994DC0800F4A1F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,8 +59,10 @@
 		7713636C1994DC0900F4A1F8 /* MontserratDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MontserratDemoTests-Info.plist"; sourceTree = "<group>"; };
 		7713636E1994DC0900F4A1F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		771363701994DC0900F4A1F8 /* MontserratDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MontserratDemoTests.m; sourceTree = "<group>"; };
-		97802A370BE44B16AFEB2868 /* libPods-MontserratDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MontserratDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A16063B2CA7349A5832BAB5F /* libPods-MontserratDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MontserratDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2C740D1F605E5A8C80D47B /* Pods-MontserratDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MontserratDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MontserratDemo/Pods-MontserratDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9F6C470D6194724A038BA878 /* libPods-MontserratDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MontserratDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CA1B27DBCAC901CA8489B0 /* Pods-MontserratDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MontserratDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MontserratDemoTests/Pods-MontserratDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E15C78E6DA2AEC76E3483B88 /* libPods-MontserratDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MontserratDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +73,7 @@
 				771363451994DC0800F4A1F8 /* CoreGraphics.framework in Frameworks */,
 				771363471994DC0900F4A1F8 /* UIKit.framework in Frameworks */,
 				771363431994DC0800F4A1F8 /* Foundation.framework in Frameworks */,
-				F2868CDC31C14A1FA0A58229 /* libPods-MontserratDemo.a in Frameworks */,
+				1BC877525E2F644974D25AAC /* libPods-MontserratDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +84,7 @@
 				771363651994DC0900F4A1F8 /* XCTest.framework in Frameworks */,
 				771363671994DC0900F4A1F8 /* UIKit.framework in Frameworks */,
 				771363661994DC0900F4A1F8 /* Foundation.framework in Frameworks */,
-				9F55093A05BA41CC9543C3ED /* libPods-MontserratDemoTests.a in Frameworks */,
+				B7B2EEA1068C3F41E0FEF3E6 /* libPods-MontserratDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,8 +98,7 @@
 				7713636A1994DC0900F4A1F8 /* MontserratDemoTests */,
 				771363411994DC0800F4A1F8 /* Frameworks */,
 				771363401994DC0800F4A1F8 /* Products */,
-				49DB6BEAD31E400281AB762E /* Pods-MontserratDemo.xcconfig */,
-				2F47762D539044B78718706F /* Pods-MontserratDemoTests.xcconfig */,
+				BF280747E1F49BE05FDC7DF3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,8 +118,8 @@
 				771363441994DC0800F4A1F8 /* CoreGraphics.framework */,
 				771363461994DC0900F4A1F8 /* UIKit.framework */,
 				771363641994DC0900F4A1F8 /* XCTest.framework */,
-				A16063B2CA7349A5832BAB5F /* libPods-MontserratDemo.a */,
-				97802A370BE44B16AFEB2868 /* libPods-MontserratDemoTests.a */,
+				9F6C470D6194724A038BA878 /* libPods-MontserratDemo.a */,
+				E15C78E6DA2AEC76E3483B88 /* libPods-MontserratDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,6 +168,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BF280747E1F49BE05FDC7DF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D2C740D1F605E5A8C80D47B /* Pods-MontserratDemo.debug.xcconfig */,
+				60044333113C7E03DD027A47 /* Pods-MontserratDemo.release.xcconfig */,
+				A6CA1B27DBCAC901CA8489B0 /* Pods-MontserratDemoTests.debug.xcconfig */,
+				409791E5BBBE1929F585D7F8 /* Pods-MontserratDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,11 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 771363741994DC0900F4A1F8 /* Build configuration list for PBXNativeTarget "MontserratDemo" */;
 			buildPhases = (
-				1D50921B97DC4AC9AA6F2A49 /* Check Pods Manifest.lock */,
+				13CD453965A46C465CF8E1EA /* [CP] Check Pods Manifest.lock */,
 				7713633B1994DC0800F4A1F8 /* Sources */,
 				7713633C1994DC0800F4A1F8 /* Frameworks */,
 				7713633D1994DC0800F4A1F8 /* Resources */,
-				C7974085A5ED430B9307532E /* Copy Pods Resources */,
+				5290F7E021BCC4D71D0612A2 /* [CP] Embed Pods Frameworks */,
+				55A89CC92D0792124508E4F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,11 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 771363771994DC0900F4A1F8 /* Build configuration list for PBXNativeTarget "MontserratDemoTests" */;
 			buildPhases = (
-				7CE08E6EAB3947E6827D3B3F /* Check Pods Manifest.lock */,
+				C62C2CB6205B18813B51BCFF /* [CP] Check Pods Manifest.lock */,
 				7713635F1994DC0900F4A1F8 /* Sources */,
 				771363601994DC0900F4A1F8 /* Frameworks */,
 				771363611994DC0900F4A1F8 /* Resources */,
-				58EA54816D564431BEC00E5E /* Copy Pods Resources */,
+				C23BB52244086DE415D60AFA /* [CP] Embed Pods Frameworks */,
+				457D052A3BFB2F7D5AB5E7EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,64 +279,103 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1D50921B97DC4AC9AA6F2A49 /* Check Pods Manifest.lock */ = {
+		13CD453965A46C465CF8E1EA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MontserratDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		58EA54816D564431BEC00E5E /* Copy Pods Resources */ = {
+		457D052A3BFB2F7D5AB5E7EE /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-MontserratDemoTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MontserratDemoTests/Pods-MontserratDemoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7CE08E6EAB3947E6827D3B3F /* Check Pods Manifest.lock */ = {
+		5290F7E021BCC4D71D0612A2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MontserratDemo/Pods-MontserratDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C7974085A5ED430B9307532E /* Copy Pods Resources */ = {
+		55A89CC92D0792124508E4F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MontserratDemo/Pods-MontserratDemo-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Montserrat/Montserrat.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Montserrat.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MontserratDemo/Pods-MontserratDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C23BB52244086DE415D60AFA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-MontserratDemo-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MontserratDemoTests/Pods-MontserratDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C62C2CB6205B18813B51BCFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MontserratDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -466,7 +519,7 @@
 		};
 		771363751994DC0900F4A1F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49DB6BEAD31E400281AB762E /* Pods-MontserratDemo.xcconfig */;
+			baseConfigurationReference = 7D2C740D1F605E5A8C80D47B /* Pods-MontserratDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -480,7 +533,7 @@
 		};
 		771363761994DC0900F4A1F8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49DB6BEAD31E400281AB762E /* Pods-MontserratDemo.xcconfig */;
+			baseConfigurationReference = 60044333113C7E03DD027A47 /* Pods-MontserratDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -494,7 +547,7 @@
 		};
 		771363781994DC0900F4A1F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F47762D539044B78718706F /* Pods-MontserratDemoTests.xcconfig */;
+			baseConfigurationReference = A6CA1B27DBCAC901CA8489B0 /* Pods-MontserratDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MontserratDemo.app/MontserratDemo";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -517,7 +570,7 @@
 		};
 		771363791994DC0900F4A1F8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F47762D539044B78718706F /* Pods-MontserratDemoTests.xcconfig */;
+			baseConfigurationReference = 409791E5BBBE1929F585D7F8 /* Pods-MontserratDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MontserratDemo.app/MontserratDemo";
 				FRAMEWORK_SEARCH_PATHS = (

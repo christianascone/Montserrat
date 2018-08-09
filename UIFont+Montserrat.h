@@ -21,4 +21,10 @@
  */
 + (instancetype)montserratBoldFontOfSize:(CGFloat)fontSize;
 
+/** Returns a font object using the Montserrat Light font in the specified size.
+ @param fontSize The size (in points) to which the font is scaled. This value must be greater than 0.0.
+ @return A font object of the specified size.
+ */
++ (instancetype)montserratLightFontOfSize:(CGFloat)fontSize;
+
 @end

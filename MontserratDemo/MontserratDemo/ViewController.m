@@ -13,6 +13,7 @@
 
 @property (nonatomic, weak) IBOutlet UILabel *montserratLabel;
 @property (nonatomic, weak) IBOutlet UILabel *montserratBoldLabel;
+@property (nonatomic, weak) IBOutlet UILabel *montserratLightLabel;
 
 @end
 
@@ -23,6 +24,7 @@
 
     self.montserratLabel.font = [UIFont montserratFontOfSize:17.0];
     self.montserratBoldLabel.font = [UIFont montserratBoldFontOfSize:17.0];
+    self.montserratLightLabel.font = [UIFont montserratLightFontOfSize:17.0];
 }
 
 @end
