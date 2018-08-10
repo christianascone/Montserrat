@@ -32,20 +32,29 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (Light)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SjW-W2-zNH">
+                                <rect key="frame" x="20" y="122" width="728" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="OVH-8d-ebu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="5xg-qp-4VU"/>
                             <constraint firstAttribute="trailing" secondItem="OVH-8d-ebu" secondAttribute="trailing" constant="20" id="8Cx-ze-bYM"/>
                             <constraint firstItem="a65-Mc-thB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Mmw-dC-2i5"/>
+                            <constraint firstAttribute="trailing" secondItem="SjW-W2-zNH" secondAttribute="trailing" constant="20" id="Qrf-bR-56O"/>
+                            <constraint firstItem="SjW-W2-zNH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="TYo-Sr-ot0"/>
                             <constraint firstItem="a65-Mc-thB" firstAttribute="top" secondItem="OVH-8d-ebu" secondAttribute="bottom" constant="20" id="cS6-cF-hnV"/>
                             <constraint firstItem="OVH-8d-ebu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="erU-XK-7ZC"/>
+                            <constraint firstItem="SjW-W2-zNH" firstAttribute="top" secondItem="a65-Mc-thB" secondAttribute="bottom" constant="20" id="lmT-3k-63F"/>
                             <constraint firstAttribute="trailing" secondItem="a65-Mc-thB" secondAttribute="trailing" constant="20" id="oHj-KM-i8e"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="montserratBoldLabel" destination="a65-Mc-thB" id="KdC-uy-GtR"/>
                         <outlet property="montserratLabel" destination="OVH-8d-ebu" id="NAU-LL-oBZ"/>
+                        <outlet property="montserratLightLabel" destination="SjW-W2-zNH" id="WNX-4r-dII"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
