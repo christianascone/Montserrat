@@ -22,39 +22,182 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (Regular)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oby-Fb-ZUX">
-                                <rect key="frame" x="20" y="40" width="335" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="20" y="28" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (Bold)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gu1-uN-uAC">
-                                <rect key="frame" x="20" y="81" width="335" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="20" y="54" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (Light)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qip-yq-kdY">
-                                <rect key="frame" x="20" y="122" width="335" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="20" y="80" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (Light)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHf-Kn-DiV">
+                                <rect key="frame" x="20" y="106" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (Black)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Black-aHf-Kn-DiV">
+                                <rect key="frame" x="20" y="132" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (BlackItalic)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BlackItalic-aHf-Kn-DiV">
+                                <rect key="frame" x="20" y="158" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (BoldItalic)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BoldItalic-aHf-Kn-DiV">
+                                <rect key="frame" x="20" y="184" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (ExtraBold)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ExtraBold-aHf-Kn-DiV">
+                                <rect key="frame" x="20" y="210" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (ExtraBoldItalic)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ExtraBoldItalic-aHf-Kn-DiV">
+                                <rect key="frame" x="20" y="236" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (ExtraLight)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ExtraLight-aHf-Kn-DiV">
+                                <rect key="frame" x="20" y="262" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (ExtraLightItalic)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ExtraLi-aHf-Kn-DiV">
+                                <rect key="frame" x="20" y="288" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (Italic)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Italic-aHf-Kn-DiV">
+                                <rect key="frame" x="20" y="314" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (LightItalic)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LightItalic-aHf-Kn-DiV">
+                                <rect key="frame" x="20" y="340" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (Medium)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Medium-aHf-Kn-DiV">
+                                <rect key="frame" x="20" y="366" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (MediumItalic)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MediumItalic-aHf-Kn-DiV">
+                                <rect key="frame" x="20" y="392" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (SemiBold)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SemiBold-aHf-Kn-DiV">
+                                <rect key="frame" x="20" y="418" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (SemiBoldItalic)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SemiBoldItalic-aHf-Kn-DiV">
+                                <rect key="frame" x="20" y="444" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (Thin)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Thin-aHf-Kn-DiV">
+                                <rect key="frame" x="20" y="470" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montserrat (ThinItalic)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ThinItalic-aHf-Kn-DiV">
+                                <rect key="frame" x="20" y="496" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Qip-yq-kdY" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="4hI-GV-lPr"/>
+                            <constraint firstItem="Black-aHf-Kn-DiV" firstAttribute="top" secondItem="aHf-Kn-DiV" secondAttribute="bottom" constant="8" id="9df-JY-xvO"/>
+                            <constraint firstItem="Black-aHf-Kn-DiV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="Black-E4s-ze-KD9"/>
+                            <constraint firstAttribute="trailing" secondItem="Black-aHf-Kn-DiV" secondAttribute="trailing" constant="20" id="Black-ctr-cM-bAm"/>
+                            <constraint firstItem="BlackItalic-aHf-Kn-DiV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="BlackItalic-E4s-ze-KD9"/>
+                            <constraint firstAttribute="trailing" secondItem="BlackItalic-aHf-Kn-DiV" secondAttribute="trailing" constant="20" id="BlackItalic-ctr-cM-bAm"/>
+                            <constraint firstItem="BlackItalic-aHf-Kn-DiV" firstAttribute="top" secondItem="Black-aHf-Kn-DiV" secondAttribute="bottom" constant="8" id="BlackItalic-jAU-Ll-Z25"/>
+                            <constraint firstItem="BoldItalic-aHf-Kn-DiV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="BoldItalic-E4s-ze-KD9"/>
+                            <constraint firstAttribute="trailing" secondItem="BoldItalic-aHf-Kn-DiV" secondAttribute="trailing" constant="20" id="BoldItalic-ctr-cM-bAm"/>
+                            <constraint firstItem="BoldItalic-aHf-Kn-DiV" firstAttribute="top" secondItem="BlackItalic-aHf-Kn-DiV" secondAttribute="bottom" constant="8" id="BoldItalic-jAU-Ll-Z25"/>
                             <constraint firstAttribute="trailing" secondItem="gu1-uN-uAC" secondAttribute="trailing" constant="20" id="CWK-5N-8IL"/>
+                            <constraint firstItem="aHf-Kn-DiV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="E4s-ze-KD9"/>
+                            <constraint firstItem="ExtraBold-aHf-Kn-DiV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="ExtraBold-E4s-ze-KD9"/>
+                            <constraint firstAttribute="trailing" secondItem="ExtraBold-aHf-Kn-DiV" secondAttribute="trailing" constant="20" id="ExtraBold-ctr-cM-bAm"/>
+                            <constraint firstItem="ExtraBold-aHf-Kn-DiV" firstAttribute="top" secondItem="BoldItalic-aHf-Kn-DiV" secondAttribute="bottom" constant="8" id="ExtraBold-jAU-Ll-Z25"/>
+                            <constraint firstItem="ExtraBoldItalic-aHf-Kn-DiV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="ExtraBoldItalic-E4s-ze-KD9"/>
+                            <constraint firstAttribute="trailing" secondItem="ExtraBoldItalic-aHf-Kn-DiV" secondAttribute="trailing" constant="20" id="ExtraBoldItalic-ctr-cM-bAm"/>
+                            <constraint firstItem="ExtraBoldItalic-aHf-Kn-DiV" firstAttribute="top" secondItem="ExtraBold-aHf-Kn-DiV" secondAttribute="bottom" constant="8" id="ExtraBoldItalic-jAU-Ll-Z25"/>
+                            <constraint firstItem="ExtraLi-aHf-Kn-DiV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="ExtraLi-E4s-ze-KD9"/>
+                            <constraint firstAttribute="trailing" secondItem="ExtraLi-aHf-Kn-DiV" secondAttribute="trailing" constant="20" id="ExtraLi-ctr-cM-bAm"/>
+                            <constraint firstItem="ExtraLi-aHf-Kn-DiV" firstAttribute="top" secondItem="ExtraLight-aHf-Kn-DiV" secondAttribute="bottom" constant="8" id="ExtraLi-jAU-Ll-Z25"/>
+                            <constraint firstItem="ExtraLight-aHf-Kn-DiV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="ExtraLight-E4s-ze-KD9"/>
+                            <constraint firstAttribute="trailing" secondItem="ExtraLight-aHf-Kn-DiV" secondAttribute="trailing" constant="20" id="ExtraLight-ctr-cM-bAm"/>
+                            <constraint firstItem="ExtraLight-aHf-Kn-DiV" firstAttribute="top" secondItem="ExtraBoldItalic-aHf-Kn-DiV" secondAttribute="bottom" constant="8" id="ExtraLight-jAU-Ll-Z25"/>
+                            <constraint firstItem="Italic-aHf-Kn-DiV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="Italic-E4s-ze-KD9"/>
+                            <constraint firstAttribute="trailing" secondItem="Italic-aHf-Kn-DiV" secondAttribute="trailing" constant="20" id="Italic-ctr-cM-bAm"/>
+                            <constraint firstItem="Italic-aHf-Kn-DiV" firstAttribute="top" secondItem="ExtraLi-aHf-Kn-DiV" secondAttribute="bottom" constant="8" id="Italic-jAU-Ll-Z25"/>
+                            <constraint firstItem="LightItalic-aHf-Kn-DiV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="LightItalic-E4s-ze-KD9"/>
+                            <constraint firstAttribute="trailing" secondItem="LightItalic-aHf-Kn-DiV" secondAttribute="trailing" constant="20" id="LightItalic-ctr-cM-bAm"/>
+                            <constraint firstItem="LightItalic-aHf-Kn-DiV" firstAttribute="top" secondItem="Italic-aHf-Kn-DiV" secondAttribute="bottom" constant="8" id="LightItalic-jAU-Ll-Z25"/>
+                            <constraint firstItem="Medium-aHf-Kn-DiV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="Medium-E4s-ze-KD9"/>
+                            <constraint firstAttribute="trailing" secondItem="Medium-aHf-Kn-DiV" secondAttribute="trailing" constant="20" id="Medium-ctr-cM-bAm"/>
+                            <constraint firstItem="Medium-aHf-Kn-DiV" firstAttribute="top" secondItem="LightItalic-aHf-Kn-DiV" secondAttribute="bottom" constant="8" id="Medium-jAU-Ll-Z25"/>
+                            <constraint firstItem="MediumItalic-aHf-Kn-DiV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="MediumItalic-E4s-ze-KD9"/>
+                            <constraint firstAttribute="trailing" secondItem="MediumItalic-aHf-Kn-DiV" secondAttribute="trailing" constant="20" id="MediumItalic-ctr-cM-bAm"/>
+                            <constraint firstItem="MediumItalic-aHf-Kn-DiV" firstAttribute="top" secondItem="Medium-aHf-Kn-DiV" secondAttribute="bottom" constant="8" id="MediumItalic-jAU-Ll-Z25"/>
+                            <constraint firstItem="SemiBold-aHf-Kn-DiV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="SemiBold-E4s-ze-KD9"/>
+                            <constraint firstAttribute="trailing" secondItem="SemiBold-aHf-Kn-DiV" secondAttribute="trailing" constant="20" id="SemiBold-ctr-cM-bAm"/>
+                            <constraint firstItem="SemiBold-aHf-Kn-DiV" firstAttribute="top" secondItem="MediumItalic-aHf-Kn-DiV" secondAttribute="bottom" constant="8" id="SemiBold-jAU-Ll-Z25"/>
+                            <constraint firstItem="SemiBoldItalic-aHf-Kn-DiV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="SemiBoldItalic-E4s-ze-KD9"/>
+                            <constraint firstAttribute="trailing" secondItem="SemiBoldItalic-aHf-Kn-DiV" secondAttribute="trailing" constant="20" id="SemiBoldItalic-ctr-cM-bAm"/>
+                            <constraint firstItem="SemiBoldItalic-aHf-Kn-DiV" firstAttribute="top" secondItem="SemiBold-aHf-Kn-DiV" secondAttribute="bottom" constant="8" id="SemiBoldItalic-jAU-Ll-Z25"/>
+                            <constraint firstItem="Thin-aHf-Kn-DiV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="Thin-E4s-ze-KD9"/>
+                            <constraint firstAttribute="trailing" secondItem="Thin-aHf-Kn-DiV" secondAttribute="trailing" constant="20" id="Thin-ctr-cM-bAm"/>
+                            <constraint firstItem="Thin-aHf-Kn-DiV" firstAttribute="top" secondItem="SemiBoldItalic-aHf-Kn-DiV" secondAttribute="bottom" constant="8" id="Thin-jAU-Ll-Z25"/>
+                            <constraint firstItem="ThinItalic-aHf-Kn-DiV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="ThinItalic-E4s-ze-KD9"/>
+                            <constraint firstAttribute="trailing" secondItem="ThinItalic-aHf-Kn-DiV" secondAttribute="trailing" constant="20" id="ThinItalic-ctr-cM-bAm"/>
+                            <constraint firstItem="ThinItalic-aHf-Kn-DiV" firstAttribute="top" secondItem="Thin-aHf-Kn-DiV" secondAttribute="bottom" constant="8" id="ThinItalic-jAU-Ll-Z25"/>
+                            <constraint firstAttribute="trailing" secondItem="aHf-Kn-DiV" secondAttribute="trailing" constant="20" id="ctr-cM-bAm"/>
                             <constraint firstAttribute="trailing" secondItem="Qip-yq-kdY" secondAttribute="trailing" constant="20" id="f66-LX-fBc"/>
-                            <constraint firstItem="oby-Fb-ZUX" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="hlC-Ad-KNO"/>
+                            <constraint firstItem="oby-Fb-ZUX" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="hlC-Ad-KNO"/>
+                            <constraint firstItem="aHf-Kn-DiV" firstAttribute="top" secondItem="Qip-yq-kdY" secondAttribute="bottom" constant="8" id="jAU-Ll-Z25"/>
                             <constraint firstItem="oby-Fb-ZUX" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="nbC-3b-mlq"/>
-                            <constraint firstItem="gu1-uN-uAC" firstAttribute="top" secondItem="oby-Fb-ZUX" secondAttribute="bottom" constant="20" id="rzl-Zc-tfV"/>
+                            <constraint firstItem="gu1-uN-uAC" firstAttribute="top" secondItem="oby-Fb-ZUX" secondAttribute="bottom" constant="8" id="rzl-Zc-tfV"/>
                             <constraint firstItem="gu1-uN-uAC" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="sqy-v0-xbb"/>
-                            <constraint firstItem="Qip-yq-kdY" firstAttribute="top" secondItem="gu1-uN-uAC" secondAttribute="bottom" constant="20" id="v1L-v7-GKk"/>
+                            <constraint firstItem="Qip-yq-kdY" firstAttribute="top" secondItem="gu1-uN-uAC" secondAttribute="bottom" constant="8" id="v1L-v7-GKk"/>
                             <constraint firstAttribute="trailing" secondItem="oby-Fb-ZUX" secondAttribute="trailing" constant="20" id="xc6-X3-GTO"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="montserratBlackItalicLabel" destination="BlackItalic-aHf-Kn-DiV" id="hgo-F2-KQM"/>
+                        <outlet property="montserratBlackLabel" destination="Black-aHf-Kn-DiV" id="rEV-p4-ouz"/>
+                        <outlet property="montserratBoldItalicLabel" destination="BoldItalic-aHf-Kn-DiV" id="NSb-gg-cLB"/>
                         <outlet property="montserratBoldLabel" destination="gu1-uN-uAC" id="mPL-bK-pno"/>
+                        <outlet property="montserratExtraBoldItalicLabel" destination="ExtraBoldItalic-aHf-Kn-DiV" id="a3b-ai-HZB"/>
+                        <outlet property="montserratExtraBoldLabel" destination="ExtraBold-aHf-Kn-DiV" id="Kru-Ta-6qJ"/>
+                        <outlet property="montserratExtraLightItalicLabel" destination="ExtraLi-aHf-Kn-DiV" id="1VU-Ud-z6L"/>
+                        <outlet property="montserratExtraLightLabel" destination="ExtraLight-aHf-Kn-DiV" id="32P-lD-0P4"/>
+                        <outlet property="montserratItalicLabel" destination="Italic-aHf-Kn-DiV" id="3w2-eu-jgZ"/>
                         <outlet property="montserratLabel" destination="oby-Fb-ZUX" id="Y3G-sh-KmS"/>
+                        <outlet property="montserratLightItalicLabel" destination="LightItalic-aHf-Kn-DiV" id="77o-xa-kPa"/>
                         <outlet property="montserratLightLabel" destination="Qip-yq-kdY" id="VV6-Xy-CPD"/>
+                        <outlet property="montserratMediumItalicLabel" destination="MediumItalic-aHf-Kn-DiV" id="xPm-dn-g71"/>
+                        <outlet property="montserratMediumLabel" destination="Medium-aHf-Kn-DiV" id="BHW-hc-UyJ"/>
+                        <outlet property="montserratSemiBoldItalicLabel" destination="SemiBoldItalic-aHf-Kn-DiV" id="ySJ-bS-jgH"/>
+                        <outlet property="montserratSemiBoldLabel" destination="SemiBold-aHf-Kn-DiV" id="IY9-Xf-iJp"/>
+                        <outlet property="montserratThinItalicLabel" destination="ThinItalic-aHf-Kn-DiV" id="rGb-FL-DV2"/>
+                        <outlet property="montserratThinLabel" destination="Thin-aHf-Kn-DiV" id="Cz9-H1-U9L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
