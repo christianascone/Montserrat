@@ -33,9 +33,24 @@ look so beautiful.
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.montserratLabel.font = [UIFont montserratFontOfSize:18.0f];
-    self.montserratBoldLabel.font = [UIFont montserratBoldFontOfSize:18.0f];
-    self.montserratLightLabel.font = [UIFont montserratLightFontOfSize:18.0f];
+    self.montserratLabel.font = [UIFont montserratFontOfSize:17.0];
+    self.montserratBoldLabel.font = [UIFont montserratBoldFontOfSize:17.0];
+    self.montserratLightLabel.font = [UIFont montserratLightFontOfSize:17.0];
+    self.montserratBlackLabel.font = [UIFont montserratBlackFontOfSize:17.0];
+    self.montserratBlackItalicLabel.font = [UIFont montserratBlackItalicFontOfSize:17.0];
+    self.montserratBoldItalicLabel.font = [UIFont montserratBoldItalicFontOfSize:17.0];
+    self.montserratExtraBoldLabel.font = [UIFont montserratExtraBoldFontOfSize:17.0];
+    self.montserratExtraBoldItalicLabel.font = [UIFont montserratExtraBoldItalicFontOfSize:17.0];
+    self.montserratExtraLightLabel.font = [UIFont montserratExtraLightFontOfSize:17.0];
+    self.montserratExtraLightItalicLabel.font = [UIFont montserratExtraLightItalicFontOfSize:17.0];
+    self.montserratItalicLabel.font = [UIFont montserratItalicFontOfSize:17.0];
+    self.montserratLightItalicLabel.font = [UIFont montserratLightItalicFontOfSize:17.0];
+    self.montserratMediumLabel.font = [UIFont montserratMediumFontOfSize:17.0];
+    self.montserratMediumItalicLabel.font = [UIFont montserratMediumItalicFontOfSize:17.0];
+    self.montserratSemiBoldLabel.font = [UIFont montserratSemiBoldFontOfSize:17.0];
+    self.montserratSemiBoldItalicLabel.font = [UIFont montserratSemiBoldItalicFontOfSize:17.0];
+    self.montserratThinLabel.font = [UIFont montserratThinFontOfSize:17.0];
+    self.montserratThinItalicLabel.font = [UIFont montserratThinItalicFontOfSize:17.0];
 }
 
 @end
